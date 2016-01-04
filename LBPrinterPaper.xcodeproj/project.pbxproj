@@ -15,6 +15,7 @@
 		D04C0F8C1C3A5BD300E8DC4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D04C0F8A1C3A5BD300E8DC4B /* LaunchScreen.storyboard */; };
 		D04C0F971C3A5BD300E8DC4B /* LBPrinterPaperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D04C0F961C3A5BD300E8DC4B /* LBPrinterPaperTests.m */; };
 		D04C0FA21C3A5BD300E8DC4B /* LBPrinterPaperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D04C0FA11C3A5BD300E8DC4B /* LBPrinterPaperUITests.m */; };
+		D04C0FB31C3A5E9000E8DC4B /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = D04C0FB21C3A5E9000E8DC4B /* 1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		D04C0F9D1C3A5BD300E8DC4B /* LBPrinterPaperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LBPrinterPaperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D04C0FA11C3A5BD300E8DC4B /* LBPrinterPaperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBPrinterPaperUITests.m; sourceTree = "<group>"; };
 		D04C0FA31C3A5BD300E8DC4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D04C0FB21C3A5E9000E8DC4B /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		D04C0F7B1C3A5BD300E8DC4B /* LBPrinterPaper */ = {
 			isa = PBXGroup;
 			children = (
+				D04C0FB21C3A5E9000E8DC4B /* 1.png */,
 				D04C0F7F1C3A5BD300E8DC4B /* AppDelegate.h */,
 				D04C0F801C3A5BD300E8DC4B /* AppDelegate.m */,
 				D04C0F821C3A5BD300E8DC4B /* ViewController.h */,
@@ -244,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D04C0F8C1C3A5BD300E8DC4B /* LaunchScreen.storyboard in Resources */,
+				D04C0FB31C3A5E9000E8DC4B /* 1.png in Resources */,
 				D04C0F891C3A5BD300E8DC4B /* Assets.xcassets in Resources */,
 				D04C0F871C3A5BD300E8DC4B /* Main.storyboard in Resources */,
 			);
