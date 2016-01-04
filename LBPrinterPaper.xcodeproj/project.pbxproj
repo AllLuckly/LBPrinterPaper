@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D04C0F7E1C3A5BD300E8DC4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D04C0F7D1C3A5BD300E8DC4B /* main.m */; };
+		D04C0F811C3A5BD300E8DC4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D04C0F801C3A5BD300E8DC4B /* AppDelegate.m */; };
+		D04C0F841C3A5BD300E8DC4B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D04C0F831C3A5BD300E8DC4B /* ViewController.m */; };
+		D04C0F871C3A5BD300E8DC4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D04C0F851C3A5BD300E8DC4B /* Main.storyboard */; };
+		D04C0F891C3A5BD300E8DC4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D04C0F881C3A5BD300E8DC4B /* Assets.xcassets */; };
+		D04C0F8C1C3A5BD300E8DC4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D04C0F8A1C3A5BD300E8DC4B /* LaunchScreen.storyboard */; };
+		D04C0F971C3A5BD300E8DC4B /* LBPrinterPaperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D04C0F961C3A5BD300E8DC4B /* LBPrinterPaperTests.m */; };
+		D04C0FA21C3A5BD300E8DC4B /* LBPrinterPaperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D04C0FA11C3A5BD300E8DC4B /* LBPrinterPaperUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D04C0F931C3A5BD300E8DC4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D04C0F711C3A5BD300E8DC4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D04C0F781C3A5BD300E8DC4B;
+			remoteInfo = LBPrinterPaper;
+		};
+		D04C0F9E1C3A5BD300E8DC4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D04C0F711C3A5BD300E8DC4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D04C0F781C3A5BD300E8DC4B;
+			remoteInfo = LBPrinterPaper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D04C0F791C3A5BD300E8DC4B /* LBPrinterPaper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LBPrinterPaper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D04C0F7D1C3A5BD300E8DC4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D04C0F7F1C3A5BD300E8DC4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D04C0F801C3A5BD300E8DC4B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D04C0F821C3A5BD300E8DC4B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D04C0F831C3A5BD300E8DC4B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D04C0F861C3A5BD300E8DC4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D04C0F881C3A5BD300E8DC4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D04C0F8B1C3A5BD300E8DC4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D04C0F8D1C3A5BD300E8DC4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D04C0F921C3A5BD300E8DC4B /* LBPrinterPaperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LBPrinterPaperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D04C0F961C3A5BD300E8DC4B /* LBPrinterPaperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBPrinterPaperTests.m; sourceTree = "<group>"; };
+		D04C0F981C3A5BD300E8DC4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D04C0F9D1C3A5BD300E8DC4B /* LBPrinterPaperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LBPrinterPaperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D04C0FA11C3A5BD300E8DC4B /* LBPrinterPaperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBPrinterPaperUITests.m; sourceTree = "<group>"; };
+		D04C0FA31C3A5BD300E8DC4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D04C0F761C3A5BD300E8DC4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D04C0F8F1C3A5BD300E8DC4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D04C0F9A1C3A5BD300E8DC4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D04C0F701C3A5BD300E8DC4B = {
+			isa = PBXGroup;
+			children = (
+				D04C0F7B1C3A5BD300E8DC4B /* LBPrinterPaper */,
+				D04C0F951C3A5BD300E8DC4B /* LBPrinterPaperTests */,
+				D04C0FA01C3A5BD300E8DC4B /* LBPrinterPaperUITests */,
+				D04C0F7A1C3A5BD300E8DC4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D04C0F7A1C3A5BD300E8DC4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D04C0F791C3A5BD300E8DC4B /* LBPrinterPaper.app */,
+				D04C0F921C3A5BD300E8DC4B /* LBPrinterPaperTests.xctest */,
+				D04C0F9D1C3A5BD300E8DC4B /* LBPrinterPaperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D04C0F7B1C3A5BD300E8DC4B /* LBPrinterPaper */ = {
+			isa = PBXGroup;
+			children = (
+				D04C0F7F1C3A5BD300E8DC4B /* AppDelegate.h */,
+				D04C0F801C3A5BD300E8DC4B /* AppDelegate.m */,
+				D04C0F821C3A5BD300E8DC4B /* ViewController.h */,
+				D04C0F831C3A5BD300E8DC4B /* ViewController.m */,
+				D04C0F851C3A5BD300E8DC4B /* Main.storyboard */,
+				D04C0F881C3A5BD300E8DC4B /* Assets.xcassets */,
+				D04C0F8A1C3A5BD300E8DC4B /* LaunchScreen.storyboard */,
+				D04C0F8D1C3A5BD300E8DC4B /* Info.plist */,
+				D04C0F7C1C3A5BD300E8DC4B /* Supporting Files */,
+			);
+			path = LBPrinterPaper;
+			sourceTree = "<group>";
+		};
+		D04C0F7C1C3A5BD300E8DC4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D04C0F7D1C3A5BD300E8DC4B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D04C0F951C3A5BD300E8DC4B /* LBPrinterPaperTests */ = {
+			isa = PBXGroup;
+			children = (
+				D04C0F961C3A5BD300E8DC4B /* LBPrinterPaperTests.m */,
+				D04C0F981C3A5BD300E8DC4B /* Info.plist */,
+			);
+			path = LBPrinterPaperTests;
+			sourceTree = "<group>";
+		};
+		D04C0FA01C3A5BD300E8DC4B /* LBPrinterPaperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D04C0FA11C3A5BD300E8DC4B /* LBPrinterPaperUITests.m */,
+				D04C0FA31C3A5BD300E8DC4B /* Info.plist */,
+			);
+			path = LBPrinterPaperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D04C0F781C3A5BD300E8DC4B /* LBPrinterPaper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D04C0FA61C3A5BD300E8DC4B /* Build configuration list for PBXNativeTarget "LBPrinterPaper" */;
+			buildPhases = (
+				D04C0F751C3A5BD300E8DC4B /* Sources */,
+				D04C0F761C3A5BD300E8DC4B /* Frameworks */,
+				D04C0F771C3A5BD300E8DC4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LBPrinterPaper;
+			productName = LBPrinterPaper;
+			productReference = D04C0F791C3A5BD300E8DC4B /* LBPrinterPaper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D04C0F911C3A5BD300E8DC4B /* LBPrinterPaperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D04C0FA91C3A5BD300E8DC4B /* Build configuration list for PBXNativeTarget "LBPrinterPaperTests" */;
+			buildPhases = (
+				D04C0F8E1C3A5BD300E8DC4B /* Sources */,
+				D04C0F8F1C3A5BD300E8DC4B /* Frameworks */,
+				D04C0F901C3A5BD300E8DC4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D04C0F941C3A5BD300E8DC4B /* PBXTargetDependency */,
+			);
+			name = LBPrinterPaperTests;
+			productName = LBPrinterPaperTests;
+			productReference = D04C0F921C3A5BD300E8DC4B /* LBPrinterPaperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D04C0F9C1C3A5BD300E8DC4B /* LBPrinterPaperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D04C0FAC1C3A5BD300E8DC4B /* Build configuration list for PBXNativeTarget "LBPrinterPaperUITests" */;
+			buildPhases = (
+				D04C0F991C3A5BD300E8DC4B /* Sources */,
+				D04C0F9A1C3A5BD300E8DC4B /* Frameworks */,
+				D04C0F9B1C3A5BD300E8DC4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D04C0F9F1C3A5BD300E8DC4B /* PBXTargetDependency */,
+			);
+			name = LBPrinterPaperUITests;
+			productName = LBPrinterPaperUITests;
+			productReference = D04C0F9D1C3A5BD300E8DC4B /* LBPrinterPaperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D04C0F711C3A5BD300E8DC4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Bison;
+				TargetAttributes = {
+					D04C0F781C3A5BD300E8DC4B = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					D04C0F911C3A5BD300E8DC4B = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D04C0F781C3A5BD300E8DC4B;
+					};
+					D04C0F9C1C3A5BD300E8DC4B = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D04C0F781C3A5BD300E8DC4B;
+					};
+				};
+			};
+			buildConfigurationList = D04C0F741C3A5BD300E8DC4B /* Build configuration list for PBXProject "LBPrinterPaper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D04C0F701C3A5BD300E8DC4B;
+			productRefGroup = D04C0F7A1C3A5BD300E8DC4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D04C0F781C3A5BD300E8DC4B /* LBPrinterPaper */,
+				D04C0F911C3A5BD300E8DC4B /* LBPrinterPaperTests */,
+				D04C0F9C1C3A5BD300E8DC4B /* LBPrinterPaperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D04C0F771C3A5BD300E8DC4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D04C0F8C1C3A5BD300E8DC4B /* LaunchScreen.storyboard in Resources */,
+				D04C0F891C3A5BD300E8DC4B /* Assets.xcassets in Resources */,
+				D04C0F871C3A5BD300E8DC4B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D04C0F901C3A5BD300E8DC4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D04C0F9B1C3A5BD300E8DC4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D04C0F751C3A5BD300E8DC4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D04C0F841C3A5BD300E8DC4B /* ViewController.m in Sources */,
+				D04C0F811C3A5BD300E8DC4B /* AppDelegate.m in Sources */,
+				D04C0F7E1C3A5BD300E8DC4B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D04C0F8E1C3A5BD300E8DC4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D04C0F971C3A5BD300E8DC4B /* LBPrinterPaperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D04C0F991C3A5BD300E8DC4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D04C0FA21C3A5BD300E8DC4B /* LBPrinterPaperUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D04C0F941C3A5BD300E8DC4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D04C0F781C3A5BD300E8DC4B /* LBPrinterPaper */;
+			targetProxy = D04C0F931C3A5BD300E8DC4B /* PBXContainerItemProxy */;
+		};
+		D04C0F9F1C3A5BD300E8DC4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D04C0F781C3A5BD300E8DC4B /* LBPrinterPaper */;
+			targetProxy = D04C0F9E1C3A5BD300E8DC4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D04C0F851C3A5BD300E8DC4B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D04C0F861C3A5BD300E8DC4B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D04C0F8A1C3A5BD300E8DC4B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D04C0F8B1C3A5BD300E8DC4B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D04C0FA41C3A5BD300E8DC4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D04C0FA51C3A5BD300E8DC4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D04C0FA71C3A5BD300E8DC4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LBPrinterPaper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-11.LBPrinterPaper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D04C0FA81C3A5BD300E8DC4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LBPrinterPaper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-11.LBPrinterPaper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D04C0FAA1C3A5BD300E8DC4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LBPrinterPaperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-11.LBPrinterPaperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LBPrinterPaper.app/LBPrinterPaper";
+			};
+			name = Debug;
+		};
+		D04C0FAB1C3A5BD300E8DC4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LBPrinterPaperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-11.LBPrinterPaperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LBPrinterPaper.app/LBPrinterPaper";
+			};
+			name = Release;
+		};
+		D04C0FAD1C3A5BD300E8DC4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LBPrinterPaperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-11.LBPrinterPaperUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LBPrinterPaper;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D04C0FAE1C3A5BD300E8DC4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LBPrinterPaperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-11.LBPrinterPaperUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LBPrinterPaper;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D04C0F741C3A5BD300E8DC4B /* Build configuration list for PBXProject "LBPrinterPaper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D04C0FA41C3A5BD300E8DC4B /* Debug */,
+				D04C0FA51C3A5BD300E8DC4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D04C0FA61C3A5BD300E8DC4B /* Build configuration list for PBXNativeTarget "LBPrinterPaper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D04C0FA71C3A5BD300E8DC4B /* Debug */,
+				D04C0FA81C3A5BD300E8DC4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D04C0FA91C3A5BD300E8DC4B /* Build configuration list for PBXNativeTarget "LBPrinterPaperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D04C0FAA1C3A5BD300E8DC4B /* Debug */,
+				D04C0FAB1C3A5BD300E8DC4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D04C0FAC1C3A5BD300E8DC4B /* Build configuration list for PBXNativeTarget "LBPrinterPaperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D04C0FAD1C3A5BD300E8DC4B /* Debug */,
+				D04C0FAE1C3A5BD300E8DC4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D04C0F711C3A5BD300E8DC4B /* Project object */;
+}
