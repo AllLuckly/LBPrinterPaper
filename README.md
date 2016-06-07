@@ -1,6 +1,6 @@
 # LBPrinterPaper
 
-技术交流群：511040024
+##技术交流群：534926022（免费）   511040024(0.8/人付费)
 
 作者博客：[http://allluckly.cn](http://allluckly.cn)
 
